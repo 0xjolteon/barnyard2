@@ -341,7 +341,6 @@ void RegisterOutputPlugins(void)
     AlertUnixSockSetup();
 #endif /* !WIN32 */
     AlertCSVSetup();
-		AlertJSONSetup();
     LogNullSetup();
     LogAsciiSetup();
 
